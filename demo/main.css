@@ -1,0 +1,28 @@
+body {
+    background: black;
+    margin: 2em;
+}
+
+[drag-contents] {
+    background-color: #ffffff44;
+    position: relative;
+    width: 100%;
+    padding: 2em 0;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    user-select: none;
+    cursor: grab;
+}
+[drag-contents].active {
+    background-color: #ffffff55;
+    cursor: grabbing;
+}
+[drag-contents] > * {
+    display: inline-block;
+    background-color: white;
+    min-height: 250px;
+    min-width: 400px;
+    margin-right: 2em;
+}
+[drag-contents] > :first-child {margin-left: 2em;}
