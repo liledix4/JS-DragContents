@@ -21,3 +21,8 @@ Three easy actions!
 3. Run `dragContents()` in any of your JS scripts!
 
 Now watch your elements being moved when you drag them!
+
+## Dependencies
+
+- [JS-ChangeHTMLClasses](https://github.com/liledix4/JS-ChangeHTMLClasses)
+- [JS-UpdateObject](https://github.com/liledix4/JS-UpdateObject)
